@@ -1,15 +1,6 @@
-<<<<<<< HEAD
-# express-mongodb-node
-前后端分离实现增删改查
-
-# 阿门
-=======
-<<<<<<< HEAD
 # express-mongodb-node
 前后端分离实现增删改查
 =======
-# express-mongodb
-
 > A Vue.js project
 
 ## Build Setup
