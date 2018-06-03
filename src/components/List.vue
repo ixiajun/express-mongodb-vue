@@ -27,9 +27,9 @@
             label="性别"
             align="center"
             width="100">
-                    <template slot-scope="scope">
-                        {{jungleSex(scope.row.sex)}}
-                    </template>
+                <template slot-scope="scope">
+                    {{jungleSex(scope.row.sex)}}
+                </template>
             </el-table-column>
             <el-table-column
             prop="address"
@@ -37,7 +37,7 @@
             align="center"
             width="150">
             </el-table-column>
-            
+
             <el-table-column
             prop="dowhat"
             label="位置"
@@ -47,8 +47,7 @@
             <el-table-column
             prop="favourite"
             label="台词"
-            align="center"
-            width="301">
+            align="center">
             </el-table-column>
             <el-table-column
             label="操作"
@@ -164,7 +163,7 @@
 </el-dialog>
 
 <el-button type="primary" class="addBtn" @click="add" icon="el-icon-plus">添加</el-button>
-  
+
   </div>
 </template>
 
