@@ -18,7 +18,7 @@ const app = express()
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use('/api',hero)
-app.listen(3001,() => {
+app.listen(3000,() => {
     console.log('app listening on port 3000.')
 })
 
